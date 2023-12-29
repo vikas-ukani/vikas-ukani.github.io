@@ -73,8 +73,8 @@
   <!-- Navbar End -->
 
   <!-- Header Start -->
-  <div class="container-fluid bg-light my-6 mt-0" id="home">
-    <div class="container">
+  <div class="container-fluid bg-light my-6 mt-0 shadow-lg" id="home">
+    <div class="container ">
       <div class="row g-5 align-items-center">
         <div class="col-lg-6 py-6 pb-0 pt-lg-0">
           <h3 class="text-primary mb-3">I'm</h3>
@@ -97,7 +97,7 @@
             class="btn btn-warning py-3 px-4 mt-4 me-5 fs-2 fw-bold border-4 shadow-lg">Hire Me</a>
         </div>
         <div class="col-lg-6">
-          <img class="img-fluid" src="img/vikas-ukani.png" alt="" />
+          <img class="img-fluid rounded-50" src="img/vikas-ukani.png" alt="" />
         </div>
       </div>
     </div>
@@ -199,12 +199,12 @@
           <div class="p-5 rounded bg-warning-warm rounded-50">
             <ul class="nav nav-pills rounded border border-2 border-primary mb-5">
               <li class="nav-item w-50">
-                <button class="nav-link w-100 py-3 fs-5 active" data-bs-toggle="pill" href="#tab-1">
+                <button class="nav-link w-100 py-3 fs-5 active fw-bold" data-bs-toggle="pill" href="#tab-1">
                   Experience
                 </button>
               </li>
               <li class="nav-item w-50">
-                <button class="nav-link w-100 py-3 fs-5" data-bs-toggle="pill" href="#tab-2">
+                <button class="nav-link w-100 py-3 fs-5 fw-bold" data-bs-toggle="pill" href="#tab-2">
                   Education
                 </button>
               </li>
@@ -315,7 +315,7 @@
   <!-- Expertise End -->
 
   <!-- Projects Start -->
-  <div class="container-xxl py-6 pt-5" id="project">
+  <div class="container-fluid bg-light shadow py-6 pt-5" id="project">
     <div class="container">
       <div class="row g-5 mb-5 align-items-center wow fadeInUp" data-wow-delay="0.1s">
         <div class="col-lg-6">
@@ -324,71 +324,101 @@
         <div class="col-lg-6 text-lg-end">
           <ul class="list-inline mx-n3 mb-0" id="portfolio-flters">
             <li class="mx-3 active" data-filter="*">All</li>
-            <li class="mx-3" data-filter=".back">Back End</li>
-            <li class="mx-3" data-filter=".front">Front End</li>
+            <li class="mx-3" data-filter=".back">Back-End</li>
+            <li class="mx-3" data-filter=".front">Front-End</li>
           </ul>
         </div>
       </div>
       <div class="row g-4 portfolio-container wow fadeInUp" data-wow-delay="0.1s">
 
-        <div class="col-lg-4 col-md-6 portfolio-item back ">
-          <div class="shadow-lg border rounded-50">
+        <div class="col-lg-4 col-md-6 portfolio-item front ">
+          <div class="shadow border rounded-50">
             <div class="portfolio-img rounded-bottom rounded-50 overflow-hidden" style="height: 300px">
-              <img class="shadow-lg border" height="100%" width="100%" src="img/portfolio-images/photo-point-image.jpg"
+              <img class="shadow-lg border" height="100%" width="100%" src="img/portfolio-images/gym-managment-app.png"
                 alt="" />
               <div class="portfolio-btn">
                 <a class="btn btn-lg-square btn-outline-secondary border-3 mx-1"
-                  href="https://github.com/vikas-ukani/photo-point" target="_blank" data-lightbox="portfolio"><i
+                  href="img/portfolio-images/gym-managment-app.png" target="_blank" data-lightbox="portfolio"><i
                     class="fa fa-eye"></i></a>
-                <a class="btn btn-lg-square btn-outline-secondary border-3 mx-1"
-                  href="https://github.com/vikas-ukani/photo-point" target="_blank"><i class="fa fa-link"></i></a>
+                <a class="btn btn-lg-square btn-outline-secondary border-3 mx-1" href="https://gym-portal.vercel.app/"
+                  target="_blank"><i class="fa fa-link"></i></a>
               </div>
             </div>
             <div class="pt-4 px-4 w-100  position-relative" style="height: 200px">
-              <h5 class="text-primary fw-bolder">Photo Point</h5>
-              <span class="fw-bold">The complete Laravel Rest-API Project which is consumed in iOS mobile
-                application.</span>
+              <h5 class="text-primary fw-bolder">Gym Portal App</h5>
+              <span class="fw-bold">An Online Gym Management Application build with Next.js, Laravel and MongoDB
+                Database.</span>
               <div class="fixed-bottom position-absolute ms-4 mb-4 d-flex">
-                <h4><span class="badge badge-pill badge-primary bg-primary mx-1">Laravel</span></h4>
-                <h4><span class="badge badge-pill badge-primary bg-primary mx-1">Rest-API</span></h4>
-                <h4><span class="badge badge-pill badge-primary bg-primary mx-1">MySQL</span></h4>
+                <h4><span class="badge badge-pill badge-primary bg-primary mx-1">Next.js</span></h4>
+                <h4><span class="badge badge-pill badge-primary bg-primary mx-1">Redux</span></h4>
+                <h4><span class="badge badge-pill badge-primary bg-primary mx-1">MongoDB</span></h4>
               </div>
             </div>
           </div>
         </div>
 
+
         <div class="col-lg-4 col-md-6 portfolio-item back ">
-          <div class="shadow-lg border rounded-50">
+          <div class="shadow border rounded-50">
             <div class="portfolio-img rounded-bottom rounded-50 overflow-hidden" style="height: 300px">
-              <img class="" height="100%" width="100%" src="img/portfolio-images/load-fitness.jpg" alt="" />
+              <img class="shadow-lg border" height="100%" width="100%" src="img/portfolio-images/integro-crm.png"
+                alt="" />
               <div class="portfolio-btn">
                 <a class="btn btn-lg-square btn-outline-secondary border-3 mx-1"
-                  href="https://github.com/vikas-ukani/load-backend-api" target="_blank" data-lightbox="portfolio"><i
+                  href="img/portfolio-images/integro-crm.png" target="_blank" data-lightbox="portfolio"><i
                     class="fa fa-eye"></i></a>
-                <a class="btn btn-lg-square btn-outline-secondary border-3 mx-1"
-                  href="https://github.com/vikas-ukani/load-backend-api" target="_blank"><i class="fa fa-link"></i></a>
+                <a class="btn btn-lg-square btn-outline-secondary border-3 mx-1" href="https://www.integrocrm.com/"
+                  target="_blank"><i class="fa fa-link"></i></a>
               </div>
             </div>
             <div class="pt-4 px-4 w-100  position-relative" style="height: 200px">
-              <h5 class="text-primary fw-bolder">Load Fitness RestAPI</h5>
-              <span class="fw-bold">Develop a Laravel Backend RestFull APIs using MYSql Database for
-                Fitness app for iOS App.</span>
+              <h5 class="text-primary fw-bolder">Integro CRM</h5>
+              <span class="fw-bold">
+                A CRM Built for non-profits that use Donorbox. Manage contacts from other systems and
+                Imports from DonorBox.
+              </span>
               <div class="fixed-bottom position-absolute ms-4 mb-4 d-flex">
                 <h4><span class="badge badge-pill badge-primary bg-primary mx-1">Laravel</span></h4>
-                <h4><span class="badge badge-pill badge-primary bg-primary mx-1">Rest-API</span></h4>
                 <h4><span class="badge badge-pill badge-primary bg-primary mx-1">MySQL</span></h4>
+                <h4><span class="badge badge-pill badge-primary bg-primary mx-1">TailwindCSS</span></h4>
               </div>
             </div>
           </div>
         </div>
 
-        <div class="col-lg-4 col-md-6 portfolio-item back ">
-          <div class="shadow-lg border rounded-50">
+        <div class="col-lg-4 col-md-6 portfolio-item front ">
+          <div class="shadow-sm border rounded-50">
+            <div class="portfolio-img rounded-bottom rounded-50 overflow-hidden" style="height: 300px">
+              <img class="" height="100%" width="100%" src="img/portfolio-images/space-match-next.png" alt="" />
+              <div class="portfolio-btn">
+                <a class="btn btn-lg-square btn-outline-secondary border-3 mx-1"
+                  href="img/portfolio-images/space-match-next.png" target="_blank" data-lightbox="portfolio"><i
+                    class="fa fa-eye"></i></a>
+                <a class="btn btn-lg-square btn-outline-secondary border-3 mx-1" href="https://space-next.vercel.app/"
+                  target="_blank"><i class="fa fa-link"></i></a>
+              </div>
+            </div>
+            <div class="pt-4 px-4 w-100  position-relative" style="height: 200px">
+              <h5 class="text-primary fw-bolder">SpaceMatch</h5>
+              <span class="fw-bold">SpaceMatch is a platform that allows Space Owners to list their vacant properties or
+                Rent a land.</span>
+              <div class="fixed-bottom position-absolute ms-4 mb-4 d-flex">
+                <h4><span class="badge badge-pill badge-primary bg-primary mx-1">Next.js</span></h4>
+                <h4><span class="badge badge-pill badge-primary bg-primary mx-1">Redux</span></h4>
+                <h4><span class="badge badge-pill badge-primary bg-primary mx-1">TailwindCSS</span></h4>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="col-lg-4 col-md-6 portfolio-item front ">
+          <div class="shadow-sm border rounded-50">
             <div class="portfolio-img rounded-bottom rounded-50 overflow-hidden" style="height: 300px">
               <img class="" height="100%" width="100%" src="img/portfolio-images/vuejs-admin.png" alt="" />
               <div class="portfolio-btn">
                 <a class="btn btn-lg-square btn-outline-secondary border-3 mx-1"
-                  href="https://github.com/vikas-ukani/load-vue-admin" target="_blank" data-lightbox="portfolio"><i
+                  href="img/portfolio-images/vuejs-admin.png" target="_blank" data-lightbox="portfolio"><i
                     class="fa fa-eye"></i></a>
                 <a class="btn btn-lg-square btn-outline-secondary border-3 mx-1"
                   href="https://github.com/vikas-ukani/load-vue-admin" target="_blank"><i class="fa fa-link"></i></a>
@@ -408,38 +438,13 @@
         </div>
 
         <div class="col-lg-4 col-md-6 portfolio-item front ">
-          <div class="shadow-lg border rounded-50">
-            <div class="portfolio-img rounded-bottom rounded-50 overflow-hidden" style="height: 300px">
-              <img class="" height="100%" width="100%" src="img/portfolio-images/shopikana-seller-site.png" alt="" />
-              <div class="portfolio-btn">
-                <a class="btn btn-lg-square btn-outline-secondary border-3 mx-1"
-                  href="https://github.com/vikas-ukani/seller-shopikana" target="_blank" data-lightbox="portfolio"><i
-                    class="fa fa-eye"></i></a>
-                <a class="btn btn-lg-square btn-outline-secondary border-3 mx-1"
-                  href="https://github.com/vikas-ukani/seller-shopikana" target="_blank"><i class="fa fa-link"></i></a>
-              </div>
-            </div>
-            <div class="pt-4 px-4 w-100  position-relative" style="height: 200px">
-              <h5 class="text-primary fw-bolder">Shopikana Shopers</h5>
-              <span class="fw-bold">An Customized Seller Admin Portal for Shoppers who can sell online. WebSite
-                developed in VueJs and Laravel REST-APIs.</span>
-              <div class="fixed-bottom position-absolute ms-4 mb-4 d-flex">
-                <h4><span class="badge badge-pill badge-primary bg-primary mx-1">VueJS</span></h4>
-                <h4><span class="badge badge-pill badge-primary bg-primary mx-1">VueX</span></h4>
-                <h4><span class="badge badge-pill badge-primary bg-primary mx-1">Axios</span></h4>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-lg-4 col-md-6 portfolio-item front ">
-          <div class="shadow-lg border rounded-50">
+          <div class="shadow-sm border rounded-50">
             <div class="portfolio-img rounded-bottom rounded-50 overflow-hidden" style="height: 300px">
               <img class="" height="100%" width="100%" src="img/portfolio-images/ecommerce-django-backend.png" alt="" />
               <div class="portfolio-btn">
                 <a class="btn btn-lg-square btn-outline-secondary border-3 mx-1"
-                  href="https://github.com/vikas-ukani/Ecommerce-Django-NextJS/tree/main/frontend" target="_blank"
-                  data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                  href="img/portfolio-images/ecommerce-django-backend.png" target="_blank" data-lightbox="portfolio"><i
+                    class="fa fa-eye"></i></a>
                 <a class="btn btn-lg-square btn-outline-secondary border-3 mx-1"
                   href="https://github.com/vikas-ukani/Ecommerce-Django-NextJS/tree/main/frontend" target="_blank"><i
                     class="fa fa-link"></i></a>
@@ -459,13 +464,38 @@
         </div>
 
         <div class="col-lg-4 col-md-6 portfolio-item back ">
-          <div class="shadow-lg border rounded-50">
+          <div class="shadow-sm border rounded-50">
+            <div class="portfolio-img rounded-bottom rounded-50 overflow-hidden" style="height: 300px">
+              <img class="" height="100%" width="100%" src="img/portfolio-images/load-fitness.jpg" alt="" />
+              <div class="portfolio-btn">
+                <a class="btn btn-lg-square btn-outline-secondary border-3 mx-1"
+                  href="img/portfolio-images/load-fitness.jpg" target="_blank" data-lightbox="portfolio"><i
+                    class="fa fa-eye"></i></a>
+                <a class="btn btn-lg-square btn-outline-secondary border-3 mx-1"
+                  href="https://github.com/vikas-ukani/load-backend-api" target="_blank"><i class="fa fa-link"></i></a>
+              </div>
+            </div>
+            <div class="pt-4 px-4 w-100  position-relative" style="height: 200px">
+              <h5 class="text-primary fw-bolder">Load Fitness RestAPI</h5>
+              <span class="fw-bold">Develop a Laravel Backend RestFull APIs using MYSql Database for
+                Fitness app for iOS App.</span>
+              <div class="fixed-bottom position-absolute ms-4 mb-4 d-flex">
+                <h4><span class="badge badge-pill badge-primary bg-primary mx-1">Laravel</span></h4>
+                <h4><span class="badge badge-pill badge-primary bg-primary mx-1">Rest-API</span></h4>
+                <h4><span class="badge badge-pill badge-primary bg-primary mx-1">MySQL</span></h4>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 portfolio-item back ">
+          <div class="shadow-sm border rounded-50">
             <div class="portfolio-img rounded-bottom rounded-50 overflow-hidden" style="height: 300px">
               <img class="" height="100%" width="100%" src="img/portfolio-images/event-management-system.jpg" alt="" />
               <div class="portfolio-btn">
                 <a class="btn btn-lg-square btn-outline-secondary border-3 mx-1"
-                  href="https://github.com/vikas-ukani/event-management-system" target="_blank"
-                  data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                  href="img/portfolio-images/event-management-system.jpg" target="_blank" data-lightbox="portfolio"><i
+                    class="fa fa-eye"></i></a>
                 <a class="btn btn-lg-square btn-outline-secondary border-3 mx-1"
                   href="https://github.com/vikas-ukani/event-management-system" target="_blank"><i
                     class="fa fa-link"></i></a>
@@ -482,19 +512,18 @@
             </div>
           </div>
         </div>
-      
-      
+
+
         <div class="col-lg-4 col-md-6 portfolio-item front ">
-          <div class="shadow-lg border rounded-50">
+          <div class="shadow-sm border rounded-50">
             <div class="portfolio-img rounded-bottom rounded-50 overflow-hidden" style="height: 300px">
               <img class="" height="100%" width="100%" src="img/portfolio-images/restro-home-page.png" alt="" />
               <div class="portfolio-btn">
                 <a class="btn btn-lg-square btn-outline-secondary border-3 mx-1"
-                  href="https://github.com/vikas-ukani/restra-management" target="_blank"
-                  data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                  href="img/portfolio-images/restro-home-page.png" target="_blank" data-lightbox="portfolio"><i
+                    class="fa fa-eye"></i></a>
                 <a class="btn btn-lg-square btn-outline-secondary border-3 mx-1"
-                  href="https://github.com/vikas-ukani/restra-management" target="_blank"><i
-                    class="fa fa-link"></i></a>
+                  href="https://github.com/vikas-ukani/restra-management" target="_blank"><i class="fa fa-link"></i></a>
               </div>
             </div>
             <div class="pt-4 px-4 w-100  position-relative" style="height: 200px">
@@ -509,6 +538,30 @@
           </div>
         </div>
 
+        <div class="col-lg-4 col-md-6 portfolio-item front ">
+          <div class="shadow-sm border rounded-50">
+            <div class="portfolio-img rounded-bottom rounded-50 overflow-hidden" style="height: 300px">
+              <img class="" height="100%" width="100%" src="img/portfolio-images/shopikana-seller-site.png" alt="" />
+              <div class="portfolio-btn">
+                <a class="btn btn-lg-square btn-outline-secondary border-3 mx-1"
+                  href="img/portfolio-images/shopikana-seller-site.png" target="_blank" data-lightbox="portfolio"><i
+                    class="fa fa-eye"></i></a>
+                <a class="btn btn-lg-square btn-outline-secondary border-3 mx-1"
+                  href="https://github.com/vikas-ukani/seller-shopikana" target="_blank"><i class="fa fa-link"></i></a>
+              </div>
+            </div>
+            <div class="pt-4 px-4 w-100  position-relative" style="height: 200px">
+              <h5 class="text-primary fw-bolder">Shopikana Shopers</h5>
+              <span class="fw-bold">An Customized Seller Admin Portal for Shoppers who can sell online. WebSite
+                developed in VueJs and Laravel REST-APIs.</span>
+              <div class="fixed-bottom position-absolute ms-4 mb-4 d-flex">
+                <h4><span class="badge badge-pill badge-primary bg-primary mx-1">VueJS</span></h4>
+                <h4><span class="badge badge-pill badge-primary bg-primary mx-1">VueX</span></h4>
+                <h4><span class="badge badge-pill badge-primary bg-primary mx-1">Axios</span></h4>
+              </div>
+            </div>
+          </div>
+        </div>
 
       </div>
     </div>
@@ -516,7 +569,7 @@
   <!-- Projects End -->
 
   <!-- About Start -->
-  <div class="container-xxl py-4" id="about">
+  <div class="container-fluid py-6 shadow" id="about">
     <div class="container">
       <div class="col-lg-12 pb-5 wow fadeInUp">
         <h1 class="display-5 mb-0">My Bio</h1>
@@ -590,7 +643,7 @@
   <!-- About End -->
 
   <!-- Service Start -->
-  <div class="container-fluid bg-light my-5 py-6" id="service">
+  <div class="container-fluid bg-light my-5 py-6 shadow" id="service">
     <div class="container">
       <div class="row g-5 mb-5 wow fadeInUp" data-wow-delay="0.1s">
         <div class="col-lg-6">
