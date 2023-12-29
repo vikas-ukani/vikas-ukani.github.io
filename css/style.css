@@ -431,3 +431,7 @@
 .rounded-50 {
     border-radius: 50px !important;
 }
+
+.bg-warning-warm {
+    background-color: #fff0a2 !important;
+}
