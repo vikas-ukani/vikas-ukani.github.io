@@ -1,0 +1,20 @@
+{
+    "name": "Vikas Ukani",
+    "short_name": "Vikas Ukani",
+    "icons": [
+      {
+        "src": "/img/vikas-ukani.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      },
+      {
+        "src": "/img/vikas-ukani.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      }
+    ],
+    "theme_color": "#6244C5",
+    "background_color": "#FFC448",
+    "display": "standalone"
+  }
+  
