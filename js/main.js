@@ -138,7 +138,7 @@
             },
         })
             .then((response) => {
-                swal({
+                Swal.fire({
                     title: "Thank You!",
                     text: "Your message sent successfully. I'll get back to you soon!",
                     icon: "success",
@@ -146,7 +146,7 @@
                 form.reset();
             })
             .catch((error) => {
-                swal({
+                Swal.fire({
                     title: "Oops!",
                     text: "There was a problem with sending the message. Please refresh the page and try again later.",
                     icon: "error",
